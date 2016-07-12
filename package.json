@@ -26,7 +26,10 @@
     "Tabs"
   ],
   "homepage": "https://github.com/oliverfencott/material-tabs#readme",
+  "devDependencies":{
+      "react": "^0.13.3"
+  },
   "dependencies": {
-    "react": "^0.13.3"
+
   }
 }

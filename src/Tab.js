@@ -13,18 +13,21 @@ const Tab = React.createClass({
   getStyle: function() {
     const {style} = this.props;
 
-    return {
+      return {
       container: {
         position: 'relative',
         height: 48,
-        padding: '0 12px',
+        padding: '0 0px',
         cursor: 'pointer'
       },
       text: {
         container: {
           position: 'relative',
-          top: '50%',
-          transform: 'translateY(-60%)',
+     height:"100%",
+     width:"100%",
+     display: "flex",
+  alignItems: "center",
+  justifyContent: "center",
           textAlign: 'center',
           textTransform: 'uppercase',
           color: style.color || '#FFFFFF',
